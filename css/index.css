@@ -1,0 +1,267 @@
+.main-title {
+    text-align: center;
+    color: #0F5382;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.main-jumbotron {
+    width: 100%;
+    background-image: url(../images/bg71.jpg);
+}
+
+.main-info {
+    margin: 10px;
+    margin-bottom: 60px;
+}
+
+.main-nav {
+    background-color: #0F5382;
+    color: whitesmoke;
+    padding: 8px;
+    position: fixed;
+    width: 100%;
+    z-index: 10000;
+}
+
+.main-nav a {
+    color: whitesmoke;
+    text-transform: uppercase;
+}
+
+.main-button {
+    background-color: #0F5382;
+}
+
+.org-name {
+    color: darkblue;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.sponsor {
+    text-align: center;
+}
+
+.sponsor img {
+    border: 1px solid black;
+}
+
+.phones {
+    text-align: center;
+    font-size: 24px;
+}
+
+.services-info {
+    width: 100%;
+    padding: 20px;
+    font-size: 20px;
+}
+
+
+.services-list,
+.services-title,
+.rewies-info {
+    margin: auto;
+    width: 60%;
+}
+
+.services-list ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-weight: lighter;
+    color: #75777D;
+}
+
+.services-list ul .service-list-item {
+    padding: 10px;
+}
+
+.service-list-item::before {
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
+    content: url(../images/1.jpg);
+}
+
+.title {
+    text-align: center;
+    color: #0F5382;
+    margin-bottom: 60px;
+}
+
+.title::before {
+    display: inline-block;
+    position: relative;
+    right: 150px;
+    top: 70px;
+    padding-right: 3px;
+    vertical-align: middle;
+    content: url(../images/52.png);
+}
+.title::after {
+    display: inline-block;
+    position: relative;
+    left: 150px;
+    bottom: 70px;
+    padding-right: 3px;
+    vertical-align: middle;
+    content: url(../images/5.png);
+}
+
+.retitle {
+    text-align: center;
+    color: #0F5382;
+    margin-bottom: 60px;
+}
+
+.retitle::before {
+    display: inline-block;
+    position: relative;
+    right: 150px;
+    top: 70px;
+    padding-right: 3px;
+    vertical-align: middle;
+    content: url(../images/62.png);
+}
+.retitle::after {
+    display: inline-block;
+    position: relative;
+    left: 150px;
+    bottom: 70px;
+    padding-right: 3px;
+    vertical-align: middle;
+    content: url(../images/6.png);
+}
+
+.subservice {
+    padding: 10px;
+    font-size: 18px !important;
+    color: #75777D;
+}
+
+.subservice li {
+    padding: 0px;
+}
+
+.advances {
+    width: 100%;
+    background-color: #8FA7B8;
+    padding-bottom: 60px; 
+}
+
+.one-advance {
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    margin-left: 8%;
+}
+
+.advances-inf {
+    width: 60%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.advances-title {
+    color: whitesmoke;
+}
+
+.ad-picture {
+    background-color: #0F5382;
+    color: whitesmoke;
+    font-size: 52px;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;  
+}
+
+.in-ad::before {
+    position: relative;
+    top: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: auto;
+}
+
+.contacts{
+    padding: 20px;
+    text-align: center;
+    font-weight: lighter;
+    color: #75777D;
+    background-image: url(../images/bg71.jpg);
+}
+
+.contacts-title,
+.rewies-title{
+    margin-top: 30px;
+}
+
+.rewies-info{
+    text-align: center;
+    position: absolute;
+    bottom:230px;
+    right: 15%;
+    left: 15%;
+    color:  #0F5382;
+    font-size: 1.2rm; 
+}
+
+.rewies-info h5{
+    color: black;
+    font-weight: bold;
+}
+
+.rewies{
+    padding: 15px;
+}
+
+.rewies img{
+    height: 630px;
+}
+
+.rewies-info h6{
+    font-weight: bold;
+    padding: 15px;
+}
+
+.rewies-info::before{
+    display: inline;
+    position: relative;
+    right: 350px;
+    padding-right: 3px;
+    vertical-align: middle;
+    content: url(../images/k.png);
+}
+
+.rewies-info::after{
+    display: inline;
+    position: relative;
+    left: 450px;
+    padding-right: 3px;
+    vertical-align: middle;
+    content: url(../images/k2.png);
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    margin: 10px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    background-color: #0000ff;
+    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);    
+}
+.carousel-indicators .active {
+    width: 48px;
+    height: 48px;
+    margin: 10px;
+    background-color: #ffff99;
+}
